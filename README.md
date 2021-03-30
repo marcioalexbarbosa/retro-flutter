@@ -4,6 +4,20 @@
 
 ![Exemplo](screenshot.png "Exemplo")
 
+## Regras
+
+O moderador ou responsável por conduzir a retrospectiva faz uma lista dos participantes e determina uma ordem aleatória.
+
+Na sua vez, cada participante escolhe um card que não foi utilizado ainda e o moderador vira o card que determina a pergunta ou ação na qual o participante deverá atuar.
+
+Há dois tipos de cards, um mais casual, descontraído ou divertido e outro que exige mais comprometimento, reflexão, argumentação e sustentação (serious = true). Recomenda-se gastar apenas alguns segundos no primeiro caso e mais tempo no segundo, inclusive dando oportunidade aos demais participantes de expor o seu ponto de vista. Ações de ajustes, correções e melhorias dos processos do time podem nascer a partir desta reflexão.
+
+Recomenda-se que o moderador explique brevemente o que se espera de cada card escolhido, possivelmente com exemplos, com o intuito de engajar os participantes, tomando-se o devido cuidado de não influenciar sua resposta, apenas norteá-la.
+
+O tempo gasto nesta dinâmica não deve ultrapassar 1 hora, a fim de não cansar a equipe. Não há problema algum se restarem alguns cards não revelados.
+
+Outra ressalva importante é que quando for a vez do moderador escolher um card, os demais participantes devem fazê-lo por ele, pelo simples fato de que é muito provável que ele já conheça a ordem e conteúdo da maioria dos cards.
+
 ---
 
 O "backend" é uma planilha do Google - [modelo](https://docs.google.com/spreadsheets/d/1kkc-rEEyM7bv5CaUc41jtwabTwEXVofZfHCLVwt_L-Q/edit?usp=sharing)
