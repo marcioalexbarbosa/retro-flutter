@@ -33,9 +33,9 @@ O código do script do [Google Apps Scripts](https://developers.google.com/apps-
 
 ### local
 
-`
+```bash
 cd build/web
 python -m SimpleHTTPServer 8069
-`
+```
 
 http://localhost:8069
