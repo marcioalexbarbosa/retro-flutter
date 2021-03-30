@@ -25,7 +25,7 @@ class CardApi {
 }
 ```
 
-O código do script do [Google Apps Scripts](https://developers.google.com/apps-script) para servir o json com os dados está no arquivo [flipapi.gs](flipapi.gs)
+O código do script do [Google Apps Scripts](https://developers.google.com/apps-script) para servir o json com os dados obtidos da planilha está no arquivo [flipapi.gs](flipapi.gs)
 
 O arquivo [mock.json](mock.json) contém a resposta da requisição e pode ser usado em uma ferramenta de mock, como o [Mockoon](https://mockoon.com)
 
