@@ -22,3 +22,20 @@ class CardApi {
 ```
 
 O código do script do [Google Apps Scripts](https://developers.google.com/apps-script) para servir o json com os dados está no arquivo [flipapi.gs](flipapi.gs)
+
+## build
+
+### web
+
+`flutter build web --release`
+
+## run
+
+### local
+
+`
+cd build/web
+python -m SimpleHTTPServer 8069
+`
+
+http://localhost:8069
