@@ -45,3 +45,7 @@ python -m SimpleHTTPServer 8069
 ```
 
 - abra o endereço http://localhost:8069 no browser
+
+## dependências
+
+- Para criar os cards, usei o package [flip_dart](https://github.com/fedeoo/flip_card)
