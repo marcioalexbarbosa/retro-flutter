@@ -49,3 +49,4 @@ python -m SimpleHTTPServer 8069
 ## dependências
 
 - Para criar os cards, usei o package [flip_dart](https://github.com/fedeoo/flip_card)
+- Para a requisição http usei uma lib assíncrona - [http](https://pub.dev/packages/http)
