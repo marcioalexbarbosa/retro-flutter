@@ -8,6 +8,10 @@
 
 O "backend" é uma planilha do Google - [modelo](https://docs.google.com/spreadsheets/d/1kkc-rEEyM7bv5CaUc41jtwabTwEXVofZfHCLVwt_L-Q/edit?usp=sharing)
 
+![Planilha](screenshot2.png "Planilha")
+
+Trecho de código que obtém os dados da planilha como JSON:
+
 ```dart
 class CardApi {
   static Future<List<CardModel>> getCardList() async {
@@ -33,9 +37,11 @@ O código do script do [Google Apps Scripts](https://developers.google.com/apps-
 
 ### local
 
+- iniciar um servidor web
+
 ```bash
 cd build/web
 python -m SimpleHTTPServer 8069
 ```
 
-http://localhost:8069
+- abra o endereço http://localhost:8069 no browser
