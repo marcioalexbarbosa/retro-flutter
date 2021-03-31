@@ -62,6 +62,10 @@ python -m SimpleHTTPServer 8069
 
 - abra o endereço http://localhost:8069 no browser
 
+### S3
+
+[Hosting a static web site using Amazon S3](https://docs.aws.amazon.com/AmazonS3/latest/userguide/WebsiteHosting.html)
+
 ## dependências
 
 - Para criar os cards, usei o package [flip_dart](https://github.com/fedeoo/flip_card)
