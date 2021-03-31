@@ -70,3 +70,8 @@ python -m SimpleHTTPServer 8069
 
 - Para criar os cards, usei o package [flip_dart](https://github.com/fedeoo/flip_card)
 - Para a requisição http usei uma lib assíncrona - [http](https://pub.dev/packages/http)
+
+## leitura recomendada
+
+- [A tour of the Dart language](https://dart.dev/guides/language/language-tour)
+- [Learn Dart in Y minutes](https://learnxinyminutes.com/docs/dart/)
