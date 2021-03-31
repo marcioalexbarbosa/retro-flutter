@@ -94,6 +94,7 @@ ou
 
 - [A tour of the Dart language](https://dart.dev/guides/language/language-tour)
 - [Learn Dart in Y minutes](https://learnxinyminutes.com/docs/dart/)
+- [Flutter 2 Is Here: All You Need to Know After Flutter Engage.](https://medium.com/swlh/flutter-2-is-here-all-you-need-to-know-after-flutter-engage-98ef7cb1469e)
 
 ## TODO
 
