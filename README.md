@@ -78,4 +78,4 @@ python -m SimpleHTTPServer 8069
 
 ## TODO
 
-[ ] unit tests
+- [ ] unit tests
