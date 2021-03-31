@@ -43,7 +43,11 @@ O código do script do [Google Apps Scripts](https://developers.google.com/apps-
 
 O arquivo [mock.json](mock.json) contém a resposta da requisição e pode ser usado em uma ferramenta de mock, como o [Mockoon](https://mockoon.com)
 
-## build
+## compile and build
+
+### install Flutter
+
+[How to install Flutter on your platform of choice](https://flutter.dev/docs/get-started/install)
 
 ### web
 
