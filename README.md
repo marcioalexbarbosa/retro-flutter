@@ -49,7 +49,13 @@ O arquivo [mock.json](mock.json) contém a resposta da requisição e pode ser u
 
 [How to install Flutter on your platform of choice](https://flutter.dev/docs/get-started/install)
 
-### web
+### check your installation
+
+`flutter doctor`
+
+### build for the web
+
+`cd ~/project_folder`
 
 `flutter build web --release`
 
@@ -66,7 +72,7 @@ python -m SimpleHTTPServer 8069
 
 - abra o endereço http://localhost:8069 no browser
 
-### S3
+### hosted on S3
 
 [Hosting a static web site using Amazon S3](https://docs.aws.amazon.com/AmazonS3/latest/userguide/WebsiteHosting.html)
 
