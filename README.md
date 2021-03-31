@@ -66,9 +66,14 @@ O arquivo [mock.json](mock.json) contém a resposta da requisição e pode ser u
 - iniciar um servidor web
 
 ```bash
-cd build/web
+cd ~/project_folder/build/web
 python -m SimpleHTTPServer 8069
 ```
+ou
+
+`python -m http.server 8069`
+
+(dependendo da sua versão do Python)
 
 - abra o endereço http://localhost:8069 no browser
 
