@@ -81,6 +81,10 @@ ou
 
 [Hosting a static web site using Amazon S3](https://docs.aws.amazon.com/AmazonS3/latest/userguide/WebsiteHosting.html)
 
+### or use another third party web hosting solution
+
+[Deploying for the Web](https://flutter.dev/docs/deployment/web#deploying-to-the-web)
+
 ## dependências
 
 - Para criar os cards, usei o package [flip_dart](https://github.com/fedeoo/flip_card)
