@@ -55,9 +55,11 @@ O arquivo [mock.json](mock.json) contém a resposta da requisição e pode ser u
 
 ### build for the web
 
-`cd ~/project_folder`
-
-`flutter build web --release`
+```bash
+cd ~/$PROJECT_FOLDER`
+flutter pub get
+flutter build web --release
+```
 
 ## run
 
@@ -66,7 +68,7 @@ O arquivo [mock.json](mock.json) contém a resposta da requisição e pode ser u
 - iniciar um servidor web
 
 ```bash
-cd ~/project_folder/build/web
+cd ~/$PROJECT_FOLDER/build/web
 python -m SimpleHTTPServer 8069
 ```
 ou
