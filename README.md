@@ -56,7 +56,7 @@ O arquivo [mock.json](mock.json) contém a resposta da requisição e pode ser u
 ### build for the web
 
 ```bash
-cd ~/$PROJECT_FOLDER`
+cd ~/$PROJECT_FOLDER
 flutter pub get
 flutter build web --release
 ```
@@ -91,7 +91,7 @@ ou
 
 - Para criar os cards, usei o package [flip_dart](https://github.com/fedeoo/flip_card)
 - Para a requisição http usei uma lib assíncrona - [http](https://pub.dev/packages/http)
-- Para análise estática e lint do código usei [analyzer](https://pub.dev/packages/analyzer) e [pedantic](https://pub.dev/packages/pedantic)
+- Para análise estática e lint do código usei [analyzer](https://pub.dev/packages/analyzer) e [pedantic](https://pub.dev/packages/pedantic) que determinam boas práticas definidas em [Effective Dart](https://dart.dev/guides/language/effective-dart)
 
 ## leitura recomendada
 
