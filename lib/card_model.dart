@@ -5,11 +5,11 @@ class CardModel {
 
   CardModel(this.front, this.back, this.serious);
 
-  factory CardModel.fromJson(dynamic json) {
+  factory CardModel.fromJson(json) {
     return CardModel(
         "${json['front']}",
         "${json['back']}",
-        json['serious']
+        "${json['serious']}".toLowerCase() == 'true'
     );
   }
 

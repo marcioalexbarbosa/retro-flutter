@@ -23,13 +23,13 @@ class _HomePageState extends State<HomePage> {
     });
   }
 
-  _renderBg() {
+  Widget _renderBg() {
     return Container(
       decoration: BoxDecoration(color: const Color(0xFF99C5F3)),
     );
   }
 
-  _renderAppBar(context) {
+  MediaQuery _renderAppBar(BuildContext context) {
     return MediaQuery.removePadding(
       context: context,
       removeBottom: true,
@@ -41,7 +41,7 @@ class _HomePageState extends State<HomePage> {
     );
   }
 
-  Row _row(context, cards) {
+  Row _row(BuildContext context, List<CardModel> cards) {
     var cardsList = <Widget>[];
 
     var cardWidget = CardWidget();
@@ -55,12 +55,12 @@ class _HomePageState extends State<HomePage> {
     );
   }
 
-  List<Widget> _rows(context) {
+  List<Widget> _rows(BuildContext context) {
     var rows = <Widget>[];
 
-    int splitAt = 5;
-    var temp = [];
-    int index = 0;
+    var splitAt = 5;
+    var temp = <CardModel>[];
+    var index = 0;
 
     for (final card in cards) {
       index++;
@@ -74,7 +74,7 @@ class _HomePageState extends State<HomePage> {
     return rows;
   }
 
-  _renderContent(context) {
+  SingleChildScrollView _renderContent(BuildContext context) {
     var rows = _rows(context);
 
     return SingleChildScrollView(child: Column(children: rows));

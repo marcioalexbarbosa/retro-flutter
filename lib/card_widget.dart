@@ -4,7 +4,7 @@ import 'package:flutter/material.dart';
 import 'card_model.dart';
 
 class CardWidget {
-  Widget card(context, CardModel card) {
+  Widget card(BuildContext context, CardModel card) {
     return Expanded(
         flex: 1,
         child: Card(
@@ -58,10 +58,9 @@ class CardWidget {
                     child: Image(
                       image: AssetImage(
                           card.serious ?
-                          "images/scream.png" :
-                          "images/relief.png"
+                          'images/scream.png' :
+                          'images/relief.png'
                       ),
-                      height: 40,
                       width: 40,
                     ),
                   )
