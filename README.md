@@ -104,3 +104,4 @@ ou
 
 - [ ] unit tests
 - [ ] múltiplos usuários dentro de uma sessão e só quem criou a sessão pode virar os cards
+- [ ] permitir a configuração de cores / dark mode
